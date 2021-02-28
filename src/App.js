@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './styles/App.scss';
 import Listitem from './components/Listitem'
+import Pagination from './components/Pagination'
 
 function App() {
 const [items, setItems] = useState([]);
@@ -29,13 +30,14 @@ function deleteHandler(key){
   setItems(filteredArr)
 }
   return (
-
+    <>
+    <Pagination/>
     <div className="App">
       <header>
         <form action="" id="to_do_form">
         <input
          type="text"
-         placeholder="Enter task"
+         placeholder="Add task ex. visit bobby tonight"
          value={currentItem.text}
          onChange={(e)=>setCurrentItem({
            text: e.target.value,
@@ -44,9 +46,12 @@ function deleteHandler(key){
         />
           <button type="submit" onClick={addItem}>Add</button>  
         </form>
+        
       </header>
       <Listitem itemArr={items} delete={deleteHandler}/>
     </div>
+    
+    </>
   );
 }
 
