@@ -12,7 +12,7 @@ const Container = styled.div`
     color: #ffffff;
     padding: 0.8rem 1rem;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
   }
   div.card {
@@ -22,6 +22,8 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+  height: 153px;
+
   }
 `;
 
@@ -40,7 +42,7 @@ const ActivityRow = styled.div`
   }
   .iconBox {
     width: 120px;
-    height: 100%x;
+    height: 100%;
     img {
       width: 34px;
       height: 34px;

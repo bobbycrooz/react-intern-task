@@ -5,14 +5,18 @@ const Container = styled.div`
   width: 100%;
   margin-top: 1rem;
   div.title {
-    background-color: transparent;
-    color: blue;
+    background-color: rgba(243, 243, 243, 0.8);
+    color: #0c84f5;
     padding: 0.3rem 0.225rem;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
+    height:45px;
+    display:flex;
+    align-items:flex-end;
+
   }
   div.card {
-    width: 100%auto;
+    width: 100%;
     background-color: #fff;
     padding: 0.4rem 0;
     display: flex;
@@ -21,16 +25,16 @@ const Container = styled.div`
     /* justify-content:space-between; */
     div.input_container {
       width: 98%;
-      border: 1px solid #b9b9b9;
+      border: 0.5px solid #d8d8d8f5;
       height: 32px;
       border-radius: 0 7px 7px 0;
-      background: gray;
+      background: #d8d8d8f5;
       margin-top: 5px;
 
       select {
         width: 60px;
         height: 100%;
-        background-color: gray;
+        background-color: #d8d8d8f5;
         border: none;
         padding: 5px;
         cursor: pointer;
@@ -42,7 +46,7 @@ const Container = styled.div`
       input {
         width: calc(100% - 60px);
         height: 100%;
-        background-color: lightgray;
+        background-color: #f3f3f3e7;
         border: none;
         border-radius: 0 5px 5px 0;
         font-size: 14px;
@@ -63,22 +67,23 @@ const Container = styled.div`
       justify-content: space-around;
       margin-top: 5px;
       button {
-        padding: 0.9rem 1rem;
-        background-color: lightblue;
+        padding: 0.7rem 1rem;
+        background-color: #0c84f5;
         border: none;
         border-radius: 10px;
-        text-transform: capitalize;
+        text-transform: uppercase;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 130px;
         cursor: pointer;
+        color:#fff;
+        font-size:16px;
+
         &:focus {
           outline: none;
         }
-        &:hover {
-          transform: translateY(2px);
-        }
+       
       }
     }
   }

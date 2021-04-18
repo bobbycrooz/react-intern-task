@@ -1,4 +1,5 @@
 import React from "react";
+import { SelectCurrency } from "./";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -7,35 +8,36 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 180px;
+  /* height: 180px; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 `;
 const Nav = styled.div`
   width: 100%;
-  height: 30px;
-  border: 1px solid blue;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
 const LogoContainer = styled.div`
-  width: 80px;
-  border: 1px solid orange;
+  width: 90px;
+  height:100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  h2 {
-    padding: 0;
-    margin: 0;
-  }
+  font-family: 'Maven Pro', sans-serif;
+  color:rgba(253, 0, 148, 0.96);
+
 `;
 
 const IconBar = styled.div`
-  /* width: 80px; */
-  border: 1px solid orange;
+  width: 60px;
+  height:100%;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 `;
 const HeaderCard = styled.div`
   display: flex;
@@ -72,7 +74,7 @@ const HeaderCard = styled.div`
   }
   span {
     height: 95%;
-    border: 1px solid #fff;
+    border: 1px solid #f3f3f37e;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -85,6 +87,7 @@ const Header = () => {
     <Container>
       <Nav>
         <LogoContainer>
+          <i class="fas fa-ribbon"></i>
           <h2>ribbon</h2>
         </LogoContainer>
         <IconBar>
@@ -93,7 +96,7 @@ const Header = () => {
             height="24px"
             viewBox="0 0 22 22"
             width="24px"
-            fill="#000000"
+            fill="#f50c52"
           >
             <path d="M0 0h24v24H0z" fill="none" />
             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
@@ -104,7 +107,7 @@ const Header = () => {
             height="24px"
             viewBox="0 0 28 28"
             width="24px"
-            fill="#000000"
+            fill="#f50c52"
           >
             <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" />
           </svg>
@@ -131,6 +134,10 @@ const Header = () => {
           <h6>Equivalent</h6>
         </div>
       </HeaderCard>
+
+      <SelectCurrency/>
+
+
     </Container>
   );
 };
