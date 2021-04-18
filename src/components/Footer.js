@@ -8,7 +8,7 @@ const Container = styled.div`
   margin-top: 2.5rem;
   .iconBox {
     width: 100%;
-    height: 75px;
+    height: 100%;
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;

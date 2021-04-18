@@ -20,14 +20,26 @@ const Nav = styled.div`
 `;
 
 const LogoContainer = styled.div`
-  width: 90px;
+  width: 98px;
   height:100%;
+  margin-left:5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Maven Pro', sans-serif;
   color:rgba(253, 0, 148, 0.96);
+    i{
+      border:1px solid ;
+      padding: 2px;
+      /* margin-top:4px; */
+      font-size: 24px;
 
+    }
+    h2{
+      border:1px solid ;
+      padding: 0;
+
+    }
 `;
 
 const IconBar = styled.div`
@@ -93,9 +105,9 @@ const Header = () => {
         <IconBar>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 0 22 22"
-            width="24px"
+            height="30px"
+            viewBox="0 0 24 24"
+            width="30px"
             fill="#f50c52"
           >
             <path d="M0 0h24v24H0z" fill="none" />
@@ -104,9 +116,9 @@ const Header = () => {
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 0 28 28"
-            width="24px"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
             fill="#f50c52"
           >
             <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" />

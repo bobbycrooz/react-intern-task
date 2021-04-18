@@ -104,7 +104,7 @@ const SelectCurrency = () => {
             type="number"
             name="amount"
             id="amount"
-            placeholder="amount"
+            placeholder="0.000001"
             aria-label="amount"
           />
         </div>
