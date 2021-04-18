@@ -9,7 +9,7 @@ const AppContainer = styled.div`
     background-color: #d8d8d8f5;
 
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 440px) {
     & {
       width: 100vw;
     }
