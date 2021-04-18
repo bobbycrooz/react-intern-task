@@ -29,14 +29,12 @@ const LogoContainer = styled.div`
   font-family: 'Maven Pro', sans-serif;
   color:rgba(253, 0, 148, 0.96);
     i{
-      border:1px solid ;
       padding: 2px;
       /* margin-top:4px; */
       font-size: 24px;
 
     }
     h2{
-      border:1px solid ;
       padding: 0;
 
     }
