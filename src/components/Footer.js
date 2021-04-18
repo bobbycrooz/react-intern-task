@@ -7,7 +7,7 @@ const Container = styled.div`
   width: 100%;
   background-color: #fff;
   margin-top: 2.5rem;
-  position: absolute;
+  position: fixed;
   bottom:0;
   .iconBox {
     width: 100%;
