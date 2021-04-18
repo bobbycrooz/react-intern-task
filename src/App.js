@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Header,SelectCurrency, RecentActivities, Footer } from "./components";
+import { Header, RecentActivities, Footer } from "./components";
 
 
 
