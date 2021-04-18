@@ -6,7 +6,7 @@ import lungs from "../assets/images/lungs.png";
 
 const Container = styled.div`
   width: 100%;
-  margin-top: 0.3rem;
+  margin-top: 1rem;
   div.title {
     background-color: transparent;
     color: #ffffff;
