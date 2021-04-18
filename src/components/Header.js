@@ -54,10 +54,10 @@ const HeaderCard = styled.div`
   justify-content: space-around;
   padding: 0.2rem;
   width: 98%;
-  height: 120px;
+  height: 150px;
   background-color: rgba(253, 0, 148, 0.96);
   border-radius: 15px;
-  margin-top: 0.8rem;
+  margin-top: 0.4rem;
   box-shadow: 0 0 10px 0.6px rgba(51, 51, 51, 0.44);
   position: relative;
   color: #fff;
