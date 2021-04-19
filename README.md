@@ -4,4 +4,4 @@ Clone repo and run npm install
 Npm Start
 
 Or check live link here
-(https://taskintern.netlify.app/market) [Live link] 
+[https://taskintern.netlify.app] (Live link) 
