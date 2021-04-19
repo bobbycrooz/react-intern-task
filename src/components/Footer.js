@@ -26,7 +26,7 @@ const Container = styled.div`
       flex-direction: column;
       align-items: center;
       text-decoration: none;
-      color: #f50c5ea1;
+      color: #f50c5e71;
 
       i {
         font-size: 24px;
