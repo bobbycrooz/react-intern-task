@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div`
+const Container = styled.form`
   width: 100%;
   margin-top: 1.5rem;
   div.title {
@@ -88,7 +88,7 @@ const Container = styled.div`
 
 const SelectCurrency = () => {
   return (
-    <Container>
+    <Container method='POST' target='_blank' action='FormHandlerUrl'>
       <div className="title">Selected Curency:</div>
       <div className="card">
         <div className="input_container">
@@ -107,8 +107,8 @@ const SelectCurrency = () => {
         </div>
 
         <div className="button_container">
-          <button>send</button>
-          <button>Receive</button>
+          <button type='submit' >send</button>
+          <button type='submit' >Receive</button>
         </div>
       </div>
     </Container>
