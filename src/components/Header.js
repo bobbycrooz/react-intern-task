@@ -8,7 +8,6 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  /* height: 180px; */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 `;
 const Nav = styled.div`
@@ -21,40 +20,37 @@ const Nav = styled.div`
 
 const LogoContainer = styled.div`
   width: 98px;
-  height:100%;
-  margin-left:5px;
+  height: 100%;
+  margin-left: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Maven Pro', sans-serif;
-  color:rgba(253, 0, 148, 0.96);
-    i{
-      padding: 2px;
-      /* margin-top:4px; */
-      font-size: 24px;
-
-    }
-    h2{
-      padding: 0;
-
-    }
+  font-family: "Maven Pro", sans-serif;
+  color: rgba(253, 0, 148, 0.96);
+  i {
+    padding: 2px;
+    /* margin-top:4px; */
+    font-size: 24px;
+  }
+  h2 {
+    padding: 0;
+  }
 `;
 
 const IconBar = styled.div`
   width: 60px;
-  height:100%;
+  height: 100%;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 `;
 const HeaderCard = styled.div`
   display: flex;
   justify-content: space-around;
   padding: 0.2rem;
   width: 98%;
-  height: 150px;
+  height: 170px;
   background-color: rgba(253, 0, 148, 0.96);
   border-radius: 15px;
   margin-top: 0.4rem;
@@ -145,9 +141,7 @@ const Header = () => {
         </div>
       </HeaderCard>
 
-      <SelectCurrency/>
-
-
+      <SelectCurrency />
     </Container>
   );
 };

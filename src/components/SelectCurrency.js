@@ -3,22 +3,21 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   div.title {
     background-color: rgba(243, 243, 243, 0.8);
     color: #0c84f5;
     padding: 0.3rem 0.225rem;
     font-size: 14px;
     font-weight: 600;
-    height:45px;
-    display:flex;
-    align-items:flex-end;
-
+    height: 45px;
+    display: flex;
+    align-items: flex-end;
   }
   div.card {
     width: 100%;
     background-color: #fff;
-    padding: 0.7rem ;
+    padding: 0.7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +31,7 @@ const Container = styled.div`
       margin-top: 5px;
 
       select {
-        width: 60px;
+        width: 70px;
         height: 100%;
         background-color: #d8d8d8f5;
         border: none;
@@ -44,7 +43,7 @@ const Container = styled.div`
         }
       }
       input {
-        width: calc(100% - 60px);
+        width: calc(100% - 70px);
         height: 100%;
         background-color: #f3f3f3e7;
         border: none;
@@ -61,7 +60,6 @@ const Container = styled.div`
     }
     div.button_container {
       width: 100%;
-      /* border:1px solid #b9b9b9; */
       padding: 0.7rem 1rem;
       display: flex;
       justify-content: space-around;
@@ -77,13 +75,12 @@ const Container = styled.div`
         align-items: center;
         width: 130px;
         cursor: pointer;
-        color:#fff;
-        font-size:16px;
+        color: #fff;
+        font-size: 16px;
 
         &:focus {
           outline: none;
         }
-       
       }
     }
   }

@@ -6,11 +6,11 @@ import lungs from "../assets/images/lungs.png";
 
 const Container = styled.div`
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
   div.title {
     background-color: transparent;
     color: #ffffff;
-    padding: 0.4rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
@@ -22,7 +22,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-  height: 153px;
+  height: 150px;
 
   }
 `;
